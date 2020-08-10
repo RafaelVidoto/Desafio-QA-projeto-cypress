@@ -1,0 +1,154 @@
+[
+  {
+    "description": "Como usuário, desejo realizar um Cadastro\nPara que posa acessar o sistema",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro",
+    "line": 3,
+    "id": "cadastro",
+    "tags": [],
+    "uri": "Cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro;cadastro-de-usuário-no-site",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Cadastro de usuário no site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 10205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "informar meus dados",
+            "result": {
+              "status": "passed",
+              "duration": 3800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "salvar",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "devo ser cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 7833000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Como usuário, desjeo acessar a listagem\nPara que possa visualizar meus dados cadastrados",
+    "keyword": "Funcionalidade",
+    "name": "Listagem",
+    "line": 2,
+    "id": "listagem",
+    "tags": [],
+    "uri": "Listagem.feature",
+    "elements": [
+      {
+        "id": "listagem;listagem-sem-registro",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Listagem sem registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 11,
+            "name": "que o site não possui registros",
+            "result": {
+              "status": "passed",
+              "duration": 22712000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "acessar a listagem",
+            "result": {
+              "status": "passed",
+              "duration": 2489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "devo visualizar a listagem vazia",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "listagem;listagem-com-registro",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Listagem com registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 18,
+            "name": "que o site  possui registros",
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 19,
+            "name": "acessar a listagem",
+            "result": {
+              "status": "passed",
+              "duration": 2875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 20,
+            "name": "devo visualizar a listagem",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
