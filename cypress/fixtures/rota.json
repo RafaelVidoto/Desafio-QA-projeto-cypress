@@ -1,0 +1,13 @@
+[
+
+                    {
+                        "_id": {
+                            "$oid": "5c618ba65d0e653dc6e905d7"
+                        },
+                        "FirstName": "Jairo",
+                        "LastName": "Greenholt",
+                        "Email": "login@automationtesting.in",
+                        "Phone": "3363976681",
+                        "Gender": "Male"
+                    }
+                ]
