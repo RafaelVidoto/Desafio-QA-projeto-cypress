@@ -1,0 +1,173 @@
+[
+  {
+    "description": "Como usuário, desejo realizar uma requisção \nPara que seja retornado o número informado por extenso respeitando as regras de validação",
+    "keyword": "Funcionalidade",
+    "name": "Conversão Numeral por Extenso",
+    "line": 3,
+    "id": "conversão-numeral-por-extenso",
+    "tags": [],
+    "uri": "TesteCase.feature",
+    "elements": [
+      {
+        "id": "conversão-numeral-por-extenso;requisição-com-valor-valido-pt",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Requisição com valor valido PT",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que seja realizado uma requisição",
+            "result": {
+              "status": "passed",
+              "duration": 4471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "o status retornado for 200",
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "a numeração informada na requisição deve retornar por extenso",
+            "result": {
+              "status": "passed",
+              "duration": 485000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "conversão-numeral-por-extenso;requisição-com-valor-invalido-pt",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Requisição com valor invalido PT",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 15,
+            "name": "que seja realizado uma requisição com valor invalido",
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 16,
+            "name": "o status retornado for 400",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 17,
+            "name": "deve ser retornado valor invalido",
+            "result": {
+              "status": "passed",
+              "duration": 457000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "conversão-numeral-por-extenso;requisição-com-valor-valido-en",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Requisição com valor valido EN",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 21,
+            "name": "que seja realizado uma requisição EN",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 22,
+            "name": "o status retornado for 200 EN",
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 23,
+            "name": "a numeração informada na requisição deve retornar por extenso EN",
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "conversão-numeral-por-extenso;requisição-com-valor-invalido-en",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Requisição com valor invalido EN",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 26,
+            "name": "que seja realizado uma requisição com valor invalido EN",
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 27,
+            "name": "o status retornado for 400 EN",
+            "result": {
+              "status": "failed",
+              "duration": 465000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -401\n    +400\n\n    at Context.eval (http://challengeqa.staging.devmuch.io/__cypress/tests?p=cypress\\integration\\TesteCase.feature:135:32)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 28,
+            "name": "deve ser retornado valor invalido EN",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

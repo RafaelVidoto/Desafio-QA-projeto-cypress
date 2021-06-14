@@ -1,5 +1,6 @@
 {
-  "name": "--yes",
+  "name": "teste-delivery-much",
+  "brandTitle": "Relatório Execução de Testes",
   "version": "1.0.0",
   "description": "projeto-cypress",
   "main": "index.js",
@@ -17,15 +18,15 @@
   "license": "ISC",
   "devDependencies": {
     "chance": "^1.1.6",
-    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-html-reporter": "^5.4.0",
     "cypress": "^4.10.0",
-    "cypress-cucumber-preprocessor": "^2.5.4",
+    "cypress-cucumber-preprocessor": "^2.5.5",
     "cypress-file-upload": "^4.0.7",
     "cypress-multi-reporters": "^1.4.0",
-    "mocha": "^8.1.1",
-    "mochawesome": "^6.1.1",
-    "mochawesome-merge": "^4.1.0",
-    "mochawesome-report-generator": "^5.1.0"
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
@@ -36,5 +37,7 @@
       "fileSuffix": ".cucumber"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "pure-gen": "^2.0.0"
+  }
 }

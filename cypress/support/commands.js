@@ -1,25 +1,16 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add("login", (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add("dismiss", { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+const pure = require('pure-gen');
+
+Cypress.Commands.add('numeroGerado', () => {
+    const number = pure.random.number({ min: -10000, max: 10000 })
+    return number
+})
+
+Cypress.Commands.add('numeroPositivo_VrLimite', () => {
+    const number = pure.random.number({ min: 10001 })
+    return number
+})
+
+Cypress.Commands.add('numeroGeradoNegativo_VRLimite', () => {
+    const number = pure.random.number({ max: -9999 })
+    return number
+})
