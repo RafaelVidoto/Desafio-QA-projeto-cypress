@@ -17,6 +17,7 @@ Repositório com testes automatizados utilizando o framework Cypress integrado c
 > Execução dos Testes
 
 Abrindo o Cypress `npm run cy:open`
+
 ou
 Modo headless: `npm run cy:run`
 
@@ -24,6 +25,7 @@ Modo headless: `npm run cy:run`
 > Relatório Cucumber
 
 `npm run report:cucumber`
+
 O mesmo será gerado no diretório ..\cypress\reports\index
 
 
